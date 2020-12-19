@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant Finder using  Zomato API</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta charset="utf-8"/><link rel='stylesheet' href='Assets/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div class="jumbotron jumbotron-billboard text-center">
+	<div class="img"></div>
+	<div class="container pt">
+		<div class="text-center">
+			<img class="logo" src='Assets/logo.png'>
+		</div>
+		<div class="mt-5 text-color">
+			<h1>SOIL Hackathon</h1>
+		</div>
+		<div class="row mx-auto well col-lg-12 mt-5">
+			<div class="col-xs-4 pr-0">				
+				<select id="select_id" class="form-control form-control-lg">
+					<option value="Select City" hidden>Select City</option>
+					<option value="4">Bengaluru</option>
+					<option value="3" >Mumbai</option>
+					<option value="1">Delhi</option>
+					<option value="6">Hyderabad</option>
+					<option value="5">Pune</option>
+					<option value="2">Kolkata</option>
+				</select>
+			</div>
+			<div class="col-xs-6 pl-0 pr-0">
+				<input id="getText" type="text" class="form-control" placeholder="Search for Restaurant">
+				</div>
+				<button id = "getMessage" class = "btn btn-success col-xs-2">Search</button>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div>
+			<div class = "message col-md-12"></div>
+		</div>
+	</div>
+	<h4 style="text-align:center">Created by <a href="https://www.linkedin.com/in/jahnaviprasad/">Jahnavi Prasad Srirampurapu</a> for SOIL Hackathon</h4>
+<!-- partial -->
+  <script src='Assets/jquery.min.js'></script>
+<script src='Assets/jquery-ui.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
